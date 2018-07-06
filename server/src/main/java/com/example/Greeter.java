@@ -14,6 +14,7 @@ public class Greeter {
 
   /**
    * This is a dummy comment by Surendra.
+   * @return greeting string
    */
 
   public final String greet(final String someone) {

@@ -1,10 +1,12 @@
 pipeline {
     agent any
 
-#    tools {
-#    	maven 'Surendra_Maven'
-#	
-#	}
+/* commented below code temporarily
+    tools {
+    	maven 'Surendra_Maven'
+	
+	}
+*/
 
     stages {
             stage('Build') {

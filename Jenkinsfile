@@ -1,12 +1,11 @@
 pipeline {
     agent any
 
-/* commented below code temporarily
     tools {
     	maven 'Surendra_Maven'
 	
 	}
-*/
+
 
     stages {
             stage('Build') {
